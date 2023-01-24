@@ -29,13 +29,6 @@
         android:summary="@string/double_tap_sleep_lockscreen_summary"
         android:defaultValue="false" />
 
-    <com.flamingo.support.preference.SystemSettingSwitchPreference
-        android:key="screen_off_udfps"
-        android:title="@string/screen_off_udfps_title"
-        android:summary="@string/screen_off_udfps_summary"
-        android:defaultValue="false"
-        settings:controller="com.flamingo.settings.lockscreen.ScreenOffUdfpsPreferenceController" />
-
     <com.flamingo.support.preference.SecureSettingSwitchPreference
         android:key="secure_lockscreen_qs_disabled"
         android:title="@string/hide_qs_title"
